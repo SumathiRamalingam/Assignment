@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="TweetModel.Context.tt">
+      <DependentUpon>TweetModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="TweetModel.edmx.diagram">
+      <DependentUpon>TweetModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="TweetModel.tt">
+      <DependentUpon>TweetModel.edmx</DependentUpon>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="following.cs">
+      <DependentUpon>TweetModel.tt</DependentUpon>
+    </Compile>
+    <Compile Update="person.cs">
+      <DependentUpon>TweetModel.tt</DependentUpon>
+    </Compile>
+    <Compile Update="tweet.cs">
+      <DependentUpon>TweetModel.tt</DependentUpon>
+    </Compile>
+    <Compile Update="TweetModel.Context.cs">
+      <DependentUpon>TweetModel.Context.tt</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="TweetModel.cs">
+      <DependentUpon>TweetModel.tt</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="TweetModel.Designer.cs">
+      <DependentUpon>TweetModel.edmx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="TweetModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TweetModel.Context.cs</LastGenOutput>
+    </None>
+    <None Update="TweetModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TweetModel.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,118 @@
+﻿@model TweetCloneApp.ViewModel.TweetViewModel
+
+@{
+    ViewBag.Title = "Tweet Page";
+}
+
+@if (Session["UserName"] != null)
+{
+    <h2>  Welcome @Session["UserName"].ToString() </h2>
+}
+<style>
+    .split {
+        height: 100%;
+        width: 50%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+
+    .left {
+        left: 0px;
+    }
+
+    .right {
+        right: 0px;
+    }
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: translate(-30%,-30%);
+        text-align: center;
+    }
+
+    .long-textbox {
+        max-width: 600px;
+        height: 80px;
+    }
+
+    .align {
+        float: right;
+    }
+</style>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal ">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            <h4> What are you doing ? </h4>
+            <div class="col-md-7">
+                @Html.EditorFor(model => model.objTweet.message, new { htmlAttributes = new { @class = "form-control long-textbox" , TabIndex = 0 } })                       
+                @Html.ValidationMessageFor(model => model.objTweet.message, "", new { @class = "text-danger" })                
+                <input type="submit" value="Tweet" class="btn btn-default align" />
+            </div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />    <br />    <br />
+    <div class="form-horizontal">
+        <div class="split left">
+            <div class="centered">
+                <div class="form-group">
+                   <h4>Follow</h4>
+                    @Html.EditorFor(model => model.objFollow.following_id, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.objFollow.following_id, "", new { @class = "text-danger" })
+                </div>
+                @Html.ActionLink(Model.tweetCount, "Tweets", new { id = Model.tweetCount }) @Html.Label(" Tweets")<br />
+                @Html.ActionLink(Model.followingCount, "Following", new { id = Model.followingCount }) @Html.Label(" Following")<br />
+                @Html.ActionLink(Model.followersCount, "Followers", new { id = Model.followersCount }) @Html.Label(" Followers")
+            </div>
+        </div>        
+        <div class="split right ">
+            <div class="centered">
+
+                <table class="table" style="border-bottom-width:thick; align-self:auto">
+                    <h4> Tweets</h4>
+                    @foreach (var item in Model.objTweetList)
+                    {
+                        <tr style="font-size:medium">
+                            <td>
+                                @Html.Hidden(@item.tweet_id.ToString())
+                            </td>
+                            <td>
+                                @item.user_id
+                            </td>
+                            <td>
+                                @item.message
+                            </td>
+                            <td>
+                                @item.created
+                            </td>
+                            <td>
+                                @Html.ActionLink("Delete", "Delete", new { id = item.tweet_id })
+                            </td>
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+    </div>
+}
+
+
+
+
+
+
+
+
+
+
+

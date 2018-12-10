@@ -1,0 +1,59 @@
+﻿@model TweetCloneApp.person
+
+@{
+    ViewBag.Title = "Profile";
+}
+
+<h2>Profile</h2>
+<style>
+    .font-size{
+        font-size:x-large;
+    }
+</style>
+<div>
+    
+    <hr />
+    <dl class="dl-horizontal font-size">
+        <dt>
+            @Html.DisplayNameFor(model => model.passwod)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.passwod)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fullname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fullname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.joined)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.joined)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.active)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.active)
+        </dd>
+
+    </dl>
+</div>
+
