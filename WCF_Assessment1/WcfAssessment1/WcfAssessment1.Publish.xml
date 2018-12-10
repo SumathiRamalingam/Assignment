@@ -1,0 +1,18 @@
+<publishData>
+  <publishTarget publishUrl="http://localhost/">
+    <file relUrl="bin/WcfAssessment1.dll.config" publishTime="11/19/2018 18:34:48" />
+    <file relUrl="Web.config" publishTime="11/19/2018 18:34:48" />
+    <file relUrl="WcfAssessment1.Service2.svc" publishTime="11/19/2018 18:35:37" />
+    <file relUrl="bin/WcfAssessment1.pdb" publishTime="11/19/2018 18:35:33" />
+    <file relUrl="bin/WcfAssessment1.dll" publishTime="11/19/2018 18:35:33" />
+    <file relUrl="WcfAssessment1.Service1.svc" publishTime="11/19/2018 18:35:37" />
+  </publishTarget>
+  <publishTarget publishUrl="http://localhost:777/">
+    <file relUrl="bin/WcfAssessment1.dll.config" publishTime="11/19/2018 18:11:41" />
+    <file relUrl="Web.config" publishTime="11/19/2018 18:11:41" />
+    <file relUrl="WcfAssessment1.Service2.svc" publishTime="11/19/2018 18:23:37" />
+    <file relUrl="bin/WcfAssessment1.pdb" publishTime="11/19/2018 18:23:33" />
+    <file relUrl="bin/WcfAssessment1.dll" publishTime="11/19/2018 18:23:33" />
+    <file relUrl="WcfAssessment1.Service1.svc" publishTime="11/19/2018 18:23:37" />
+  </publishTarget>
+</publishData>

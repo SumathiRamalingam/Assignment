@@ -1,0 +1,1 @@
+<%@ ServiceHost Service="WcfAssessment2.Service1" %>

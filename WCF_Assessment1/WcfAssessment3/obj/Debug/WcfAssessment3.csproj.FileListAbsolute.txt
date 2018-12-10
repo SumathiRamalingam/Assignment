@@ -1,0 +1,6 @@
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\WCF_Assessment1\WcfAssessment3\bin\Debug\WcfAssessment3.dll.config
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\WCF_Assessment1\WcfAssessment3\bin\Debug\WcfAssessment3.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\WCF_Assessment1\WcfAssessment3\bin\Debug\WcfAssessment3.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\WCF_Assessment1\WcfAssessment3\obj\Debug\WcfAssessment3.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\WCF_Assessment1\WcfAssessment3\obj\Debug\WcfAssessment3.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\WCF_Assessment1\WcfAssessment3\obj\Debug\WcfAssessment3.csprojResolveAssemblyReference.cache

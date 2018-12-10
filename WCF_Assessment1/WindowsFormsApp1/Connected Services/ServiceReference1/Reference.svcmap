@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3a92de7c-e0a6-4f14-93dc-d12e54fed297" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/WcfJob/WcfAssessment2.Service1.svc/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="b6b61675-c07b-410e-b3f7-ae44ddc65520" SourceId="1" SourceUrl="http://localhost/WcfJob/WcfAssessment2.Service1.svc/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="5e0deba6-3a61-40e4-9435-12204580cdb2" SourceId="1" SourceUrl="http://localhost/WcfJob/WcfAssessment2.Service1.svc/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="cc21c227-1feb-44df-9684-a4d36eb07925" SourceId="1" SourceUrl="http://localhost/WcfJob/WcfAssessment2.Service1.svc/mex" />
+    <MetadataFile FileName="WcfAssessment2.xsd" MetadataType="Schema" ID="2ffd0803-b319-426e-ae00-ecf555461703" SourceId="1" SourceUrl="http://localhost/WcfJob/WcfAssessment2.Service1.svc/mex" />
+    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="6a15efb8-e557-4e87-ba92-3a7d5ec66a04" SourceId="1" SourceUrl="http://localhost/WcfJob/WcfAssessment2.Service1.svc/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

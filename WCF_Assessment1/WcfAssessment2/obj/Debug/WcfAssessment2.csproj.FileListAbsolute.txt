@@ -1,0 +1,5 @@
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\WCF_Assessment1\WcfAssessment2\bin\Debug\WcfAssessment2.dll.config
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\WCF_Assessment1\WcfAssessment2\bin\Debug\WcfAssessment2.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\WCF_Assessment1\WcfAssessment2\bin\Debug\WcfAssessment2.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\WCF_Assessment1\WcfAssessment2\obj\Debug\WcfAssessment2.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\WCF_Assessment1\WcfAssessment2\obj\Debug\WcfAssessment2.pdb

@@ -1,0 +1,23 @@
+<publishData>
+  <publishTarget publishUrl="C:\inetpub\wwwroot\WcfJob\">
+    <file relUrl="bin/WcfAssessment2.dll" publishTime="11/20/2018 11:21:45" />
+    <file relUrl="bin/WcfAssessment2.pdb" publishTime="11/20/2018 11:21:45" />
+    <file relUrl="bin/WcfAssessment2.dll.config" publishTime="11/20/2018 11:00:34" />
+    <file relUrl="Web.config" publishTime="11/20/2018 11:00:34" />
+    <file relUrl="WcfAssessment2.Service1.svc" publishTime="11/20/2018 11:21:50" />
+  </publishTarget>
+  <publishTarget publishUrl="C:\Users\Administrator\Desktop\WCF.NetAssignment_1DotNet\">
+    <file relUrl="bin/WcfAssessment2.dll" publishTime="11/20/2018 11:00:49" />
+    <file relUrl="bin/WcfAssessment2.pdb" publishTime="11/20/2018 11:00:49" />
+    <file relUrl="bin/WcfAssessment2.dll.config" publishTime="11/20/2018 11:00:34" />
+    <file relUrl="Web.config" publishTime="11/20/2018 11:00:34" />
+    <file relUrl="WcfAssessment2.Service1.svc" publishTime="11/20/2018 11:02:39" />
+  </publishTarget>
+  <publishTarget publishUrl="http://localhost:7733/">
+    <file relUrl="bin/WcfAssessment2.dll" publishTime="11/19/2018 18:45:44" />
+    <file relUrl="bin/WcfAssessment2.dll.config" publishTime="11/19/2018 18:48:34" />
+    <file relUrl="WcfAssessment2.Service1.svc" publishTime="11/19/2018 18:52:44" />
+    <file relUrl="Web.config" publishTime="11/19/2018 18:48:34" />
+    <file relUrl="bin/WcfAssessment2.pdb" publishTime="11/19/2018 18:45:44" />
+  </publishTarget>
+</publishData>
